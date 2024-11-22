@@ -32,12 +32,12 @@ A complete list of classes is provided within the project notebook.
     - `Model 3:` Regualr cnn + Hyperp parameter tuning
     - `Model 4:` Regular cnn + Hyperp parameter tuning + Data Augumentation
 ## Summary
-| Model         | Loss | Accuracy |
-|---------------|------|----------|
-| Lenet         | 0.78 | 0.87     |
-| Lenet+Aug     | 0.81 | 0.84     |
-| CNN+hyp       | 0.41 | 0.97     |
-| CNN+hyp+Aug   | 0.50 | 0.96     |
+|Model||Type       | Loss | Accuracy |
+|-----||---------------|------|----------|
+|Model 1|| Lenet         | 0.78 | 0.87     |
+|Model 2|| Lenet+Aug     | 0.81 | 0.84     |
+|Model 3|| CNN+hyp       | 0.41 | 0.97     |
+|Model 4|| CNN+hyp+Aug   | 0.50 | 0.96     |
 
 ## Inference
 - Trained both the normal data and augumented data  on the above models and We will be reading the traffic signs using model 3 which as an accuracy of 97%
@@ -92,7 +92,7 @@ A complete list of classes is provided within the project notebook.
 | **Macro avg**                                | **0.95**  | **0.96**| **0.95** | 12630   |
 | **Weighted avg**                             | **0.97**  | **0.97**| **0.97** | 12630   |
 
-## Overall performance
+## Overall performance of Model 3
   - Accuracy: 0.97
   - Macro Avg Precision: 0.95
   - Macro Avg Recall: 0.96
