@@ -42,6 +42,7 @@ A complete list of classes is provided within the project notebook.
 ## Inference
 - Trained both the normal data and augumented data  on the above models and We will be reading the traffic signs using model 3 which as an accuracy of 97%
 - The model 3 omly performs poorly on the pedestrain signs (Refer below classification reports) and heatmap for the confusion matrix provided in the files
+## Classification report of model 3
 | Class                                        | Precision | Recall | F1-score | Support |
 |----------------------------------------------|-----------|--------|----------|---------|
 | Speed limit (20km/h)                         | 0.92      | 1.00   | 0.96     | 55      |
