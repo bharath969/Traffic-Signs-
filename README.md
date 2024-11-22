@@ -39,11 +39,17 @@ A complete list of classes is provided within the project notebook.
 | Model 3 | CNN + Hyp      | 0.41 | 0.97     |
 | Model 4 | CNN + Hyp + Aug| 0.50 | 0.96     |
 
-
 ## Inference
-- Trained both the normal data and augumented data  on the above models and We will be reading the traffic signs using model 3 which as an accuracy of 97%
-- The model 3 omly performs poorly on the pedestrain signs (Refer below classification reports) and heatmap for the confusion matrix provided in the files
-## Classification report of model 3
+- Based on the model summary,Model 3 which has highest accuracy of 97% will be used for further predictions
+
+### Overall performance of Model 3
+  - Accuracy: 0.97
+  - Macro Avg Precision: 0.95
+  - Macro Avg Recall: 0.96
+  - Weighted Avg Precision: 0.97
+  - Weighted Avg Recall: 0.97
+
+### Classification report of model 3
 | Class                                        | Precision | Recall | F1-score | Support |
 |----------------------------------------------|-----------|--------|----------|---------|
 | Speed limit (20km/h)                         | 0.92      | 1.00   | 0.96     | 55      |
@@ -93,15 +99,11 @@ A complete list of classes is provided within the project notebook.
 | **Macro avg**                                | **0.95**  | **0.96**| **0.95** | 12630   |
 | **Weighted avg**                             | **0.97**  | **0.97**| **0.97** | 12630   |
 
-## Overall performance of Model 3
-  - Accuracy: 0.97
-  - Macro Avg Precision: 0.95
-  - Macro Avg Recall: 0.96
-  - Weighted Avg Precision: 0.97
-  - Weighted Avg Recall: 0.97
 
+### Observations for model 3
+- The model 3 omly performs poorly on the pedestrain signs (refer above classification reports and heatmap for the confusion matrix provided in the files)
 - The mislabelling of the pedestrian class might be because of the following reasons (less sample data,Low quality of the image,similarities with other classes such as yiled)
-- Apart from that this model performs very well on all classes and you can see the same from the macro avg and weighted average in the classsification report
+- The model performs very well on all classes and you can see the same from the macro avg and weighted average reports in the classsification report
 
 **So we can conlude that Model 3 is the best for reading traffic signs**
   
