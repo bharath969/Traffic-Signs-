@@ -17,7 +17,8 @@ The dataset contains 43 classes, including but not limited to:
 - Mandatory signs (e.g., Keep right, Roundabout mandatory)
 - Prohibitory signs (e.g., No passing, No entry)
 
-The data is too large to be uploaded here.`Do find the dataser at this link:`
+The data is too large to be uploaded here.`Do find the dataset at this link:`
+
 A complete list of classes is provided within the project notebook.
 
 ## Project Features
