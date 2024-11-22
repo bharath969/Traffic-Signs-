@@ -92,16 +92,15 @@ A complete list of classes is provided within the project notebook.
 | **Macro avg**                                | **0.95**  | **0.96**| **0.95** | 12630   |
 | **Weighted avg**                             | **0.97**  | **0.97**| **0.97** | 12630   |
 
-
-
-- The mislabelling of the pedestrian class might be because of the following reasons (less sample data,Low quality of the image,similarities with other classes such as yiled)
-- Apart from that this model performs very well on all classes and you can see the same from the macro avg and weighted average in the classsification report
-- **Overall Performance of the Model 3:**
-- - Accuracy: 0.97
+## Overall performance
+  - Accuracy: 0.97
   - Macro Avg Precision: 0.95
   - Macro Avg Recall: 0.96
   - Weighted Avg Precision: 0.97
   - Weighted Avg Recall: 0.97
+
+- The mislabelling of the pedestrian class might be because of the following reasons (less sample data,Low quality of the image,similarities with other classes such as yiled)
+- Apart from that this model performs very well on all classes and you can see the same from the macro avg and weighted average in the classsification report
 
 **So we can conlude that Model 3 is the best for reading traffic signs**
   
