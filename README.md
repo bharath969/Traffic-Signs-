@@ -32,7 +32,7 @@ A complete list of classes is provided within the project notebook.
     - `Model 3:` Regualr cnn + Hyperp parameter tuning
     - `Model 4:` Regular cnn + Hyperp parameter tuning + Data Augumentation
 ## Summary
-- | Model         | Loss | Accuracy |
+| Model         | Loss | Accuracy |
 |---------------|------|----------|
 | Lenet         | 0.78 | 0.87     |
 | Lenet+Aug     | 0.81 | 0.84     |
