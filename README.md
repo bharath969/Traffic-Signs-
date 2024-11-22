@@ -1,4 +1,4 @@
-# Traffic Signs Lbelling
+# Traffic Signs Labelling
 
 ## Overview
 This project focuses on building a deep learning model to classify traffic signs into one of 43 different categories. The dataset used is the German Traffic Sign Recognition Benchmark (GTSRB), and the LeNet neural network architecture is implemented for the classification task.
